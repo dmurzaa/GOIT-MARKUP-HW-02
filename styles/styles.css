@@ -114,6 +114,33 @@ body {
     letter-spacing: 0.02em;
 }
 
+.hero-btn {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    align-items: center;
+    letter-spacing: 0.04em;
+    line-height: 1.18;
+    background: var(--accent-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.hero-btn:active {
+    background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.hero-btn:focus,
+.hero-btn:hover {
+    background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
 /* Section */
 
 .section-title {
@@ -160,7 +187,6 @@ body {
     background-color: #F4F4FD;
 }
 
-
 .about-team .staff {
 
     font-weight: 500;
@@ -182,40 +208,9 @@ body {
     align-items: center;
     padding: 0px 0px 32px;
     width: 264px;
-
     background: var(--primary-white-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-}
-
-/* Button main */
-
-
-.hero-btn {
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    align-items: center;
-    letter-spacing: 0.04em;
-    line-height: 1.18;
-    background: var(--accent-color);
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-
-.hero-btn:active {
-    background: #404BBF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.hero-btn:focus,
-.hero-btn:hover {
-    background: #404BBF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* Footer */
@@ -231,11 +226,12 @@ body {
     letter-spacing: 0.02em;
 }
 
-
-
-/* Portfolio */
+/* ------------------------------------------- */
+/* ---------------Portfolio------------------- */
+/* ------------------------------------------- */
 
 .portf-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
